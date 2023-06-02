@@ -9,7 +9,7 @@
   display: flex;
   justify-content: space-between;
   padding: 27px 205px 270px 240px;
-  max-width: 1920px;
+  width: 1920px;
   height: 388px;
 }
 
@@ -42,6 +42,7 @@
 
 .large-image {
   max-width: 1195px;
+  width: 100%;
   height: 600px;
   object-fit: fill;
   display: block;
@@ -64,6 +65,7 @@
 
 .images {
   max-width: 219px;
+  width: 100%;
   height: 219px;
   object-fit: fill;
   margin-right: 25px;
@@ -97,6 +99,5 @@
 }
 
 main {
-  position: relative;
-  top: -173px;
+  margin-top: -173px;
 }
