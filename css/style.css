@@ -9,8 +9,8 @@
   display: flex;
   justify-content: space-between;
   padding: 27px 205px 270px 240px;
-  max-width: 1475px;
-  height: 91px;
+  max-width: 1920px;
+  height: 388px;
 }
 
 .logo {
@@ -57,12 +57,12 @@
   margin-bottom: 36px;
 }
 
-.div-design-images {
+.images-div {
   text-align: center;
   margin-bottom: 36px;
 }
 
-.small-image {
+.images {
   max-width: 219px;
   height: 219px;
   object-fit: fill;
@@ -81,7 +81,7 @@
 
 .button-div {
   text-align: center;
-  margin-bottom: 36px;
+  margin-top: 58px;
 }
 
 .button {
@@ -94,4 +94,9 @@
   font-weight: bold;
   border: none;
   cursor: pointer;
+}
+
+main {
+  position: relative;
+  top: -173px;
 }
