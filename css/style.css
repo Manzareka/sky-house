@@ -2,6 +2,11 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  max-width: 100%;
+}
+
+main {
+  margin-top: -173px;
 }
 
 .header {
@@ -20,12 +25,15 @@
 }
 
 .nav-list {
-  display: flex;
   list-style: none;
   padding: 37px;
 }
 
-.nav-item {
+.nav-items {
+  display: inline-block;
+}
+
+.list-item {
   text-decoration: none;
   color: #ffffff;
   font-size: 16px;
@@ -48,19 +56,19 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 36px;
+  margin-bottom: 30px;
 }
 
 .h1 {
   font-size: 28px;
   font-weight: bold;
   text-align: center;
-  margin-bottom: 36px;
+  margin-bottom: 60px;
 }
 
 .images-div {
   text-align: center;
-  margin-bottom: 36px;
+  margin-bottom: 60px;
 }
 
 .images {
@@ -84,6 +92,7 @@
 .button-div {
   text-align: center;
   margin-top: 58px;
+  margin-bottom: 180px;
 }
 
 .button {
@@ -96,8 +105,4 @@
   font-weight: bold;
   border: none;
   cursor: pointer;
-}
-
-main {
-  margin-top: -173px;
 }
